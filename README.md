@@ -2,7 +2,8 @@
 This is a modding tool for the game Stormworks that I made. It edits the xml files to make custom blocks (MOD BLOCK FILES, not vehicle xml files). In the current version surface and voxel editing is available. In the future many more features are planned!
 
 # How to download
-To download simply download the "Stormworks Modding Tool.exe" file and run it. This can be done by clicking the "Stormworks Modding Tool.exe" file above then clicking the download button to the upper right. Or simply click the "code" button above and the "Download zip" and then extract the "Stormworks Modding Tool.exe" file and open it.
+Windows: To download simply download the "Stormworks Modding Tool.exe" file and run it. This can be done by clicking the "Stormworks Modding Tool.exe" file above then clicking the download button to the upper right. Or simply click the "code" button above and the "Download zip" and then extract the "Stormworks Modding Tool.exe" file and open it.
+Linux and MacOS: Same steps but with the corresponding version named in the files.
 
 # How to use
 When the program is opened you should start by loading in your pre existing xml file that you want to edit. Do this by clicking the "Load XML file" button and select the file wich you want to edit. You can also load a visual guide mesh from an obj file to help you know where to place the voxels and surfaces. 
