@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition name="1x1 test cube" category="1" type="24" mass="1" value="50" tags="test" mesh_data_name="" constraint_axis="1" max_motor_force="100" cable_length="16" buoy_radius="1" buoy_factor="1" buoy_force="100" force_emitter_max_force="1000" force_emitter_max_vector="1" engine_max_force="1000" wheel_radius="0.25" button_type="1" light_intensity="1" light_range="1" light_ies_map="graphics/ies/ies_default.txtr" light_fov="1" door_lower_limit="-1" door_upper_limit="1" dynamic_max_rotation="3.141593" magnet_force="1">
+	<tooltip_properties description="Test block from the Stormworks Modding Tool"/>
+	<surfaces>
+		<surface orientation="3" shape="1" rotation="0">
+			<position x="0" y="0" z="-0"/>
+		</surface>
+		<surface orientation="4" shape="1" rotation="0">
+			<position x="0" y="0" z="-0"/>
+		</surface>
+		<surface orientation="0" shape="1" rotation="0">
+			<position x="0" y="0" z="-0"/>
+		</surface>
+		<surface orientation="1" shape="1" rotation="0">
+			<position x="0" y="0" z="-0"/>
+		</surface>
+		<surface orientation="2" shape="1" rotation="0">
+			<position x="0" y="0" z="-0"/>
+		</surface>
+		<surface orientation="5" shape="1" rotation="0">
+			<position x="0" y="0" z="-0"/>
+		</surface>
+	</surfaces>
+	<buoyancy_surfaces>
+		<surface orientation="3" shape="1" rotation="0">
+			<position x="0" y="0" z="-0"/>
+		</surface>
+		<surface orientation="4" shape="1" rotation="0">
+			<position x="0" y="0" z="-0"/>
+		</surface>
+		<surface orientation="0" shape="1" rotation="0">
+			<position x="0" y="0" z="-0"/>
+		</surface>
+		<surface orientation="1" shape="1" rotation="0">
+			<position x="0" y="0" z="-0"/>
+		</surface>
+		<surface orientation="2" shape="1" rotation="0">
+			<position x="0" y="0" z="-0"/>
+		</surface>
+		<surface orientation="5" shape="1" rotation="0">
+			<position x="0" y="0" z="-0"/>
+		</surface>
+	</buoyancy_surfaces>
+	<couplings/>
+	<voxels>
+		<voxel flags="1" physics_shape="0">
+			<position x="0" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+	</voxels>
+	<voxel_min/>
+	<voxel_max/>
+	<voxel_physics_min/>
+	<voxel_physics_max/>
+	<bb_physics_min/>
+	<bb_physics_max/>
+	<compartment_sample_pos/>
+	<constraint_pos_parent/>
+	<constraint_pos_child/>
+	<voxel_location_child/>
+	<seat_offset/>
+	<seat_front/>
+	<seat_up/>
+	<seat_camera/>
+	<seat_render/>
+	<force_dir/>
+	<light_position/>
+	<light_color x="1" y="1" z="1"/>
+	<light_forward/>
+	<door_size x="1" y="1" z="1"/>
+	<door_normal/>
+	<door_side/>
+	<door_up/>
+	<door_base_pos/>
+	<dynamic_body_position/>
+	<dynamic_rotation_axes y="1"/>
+	<dynamic_side_axis x="1"/>
+	<magnet_offset/>
+	<connector_axis/>
+	<connector_up/>
+	<jet_engine_connections_prev/>
+	<jet_engine_connections_next/>
+	<particle_direction/>
+	<particle_offset/>
+	<particle_bounds/>
+	<rope_hook_offset/>
+</definition>
+
+
