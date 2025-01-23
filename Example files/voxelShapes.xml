@@ -1,422 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<definition name="Voxel shapes test" category="1" type="44" mass="1" value="100" flags="8192" tags="test" phys_collision_dampen="0" audio_filename_start="" audio_filename_loop="" audio_filename_end="" audio_filename_start_b="" audio_filename_loop_b="" audio_filename_end_b="" audio_gain="0" mesh_data_name="" mesh_0_name="" mesh_1_name="" mesh_editor_only_name="" block_type="0" child_name="" extender_name="" constraint_type="0" constraint_axis="1" constraint_range_of_motion="0" max_motor_force="100" max_motor_speed="10" cable_radius="16" cable_length="-431602080" seat_pose="0" seat_health_per_sec="0" buoy_radius="1" buoy_factor="1" buoy_force="100" force_emitter_max_force="1000" force_emitter_max_vector="1" force_emitter_default_pitch="0" force_emitter_blade_height="0" force_emitter_rotation_speed="1" force_emitter_blade_physics_length="4" force_emitter_blade_efficiency="0.01" force_emitter_efficiency="1" engine_max_force="1000" engine_frictionless_force="0" trans_conn_type="0" wheel_radius="0.25" wheel_wishbone_length="1.25" wheel_suspension_height="1" wheel_wishbone_margin="0.085" wheel_suspension_offset="0.25" wheel_wishbone_offset="0" wheel_type="0" button_type="1" light_intensity="1" light_range="1" light_ies_map="graphics/ies/ies_default.txtr" light_fov="1" light_type="0" door_lower_limit="-1" door_upper_limit="1" door_flipped="false" custom_door_type="0" door_side_dist="1" door_up_dist="1" dynamic_min_rotation="0" dynamic_max_rotation="3.141593" logic_gate_type="0" logic_gate_subtype="0" indicator_type="0" connector_type="0" magnet_force="1" gyro_type="0" reward_tier="1" revision="0" rudder_surface_area="1" pump_pressure="0.01" water_component_type="0" torque_component_type="0" jet_engine_component_type="0" particle_speed="0.05" inventory_class="0" inventory_default_item="0" electric_type="0" electric_charge_capacity="0" electric_magnitude="0" composite_type="0" camera_fov_min="1.22" camera_fov_max="0.5" monitor_border="0" monitor_inset="0" weapon_type="2" weapon_class="5" weapon_belt_type="0" weapon_ammo_capacity="0" weapon_ammo_feed="false" weapon_barrel_length_voxels="16" rx_range="10" rx_length="1" rocket_type="1" radar_range="20000" engine_module_type="0" steam_component_type="0" nuclear_component_type="0">
+<definition name="Voxel shapes test" category="1" type="24" mass="1" value="50" tags="test" mesh_data_name="" constraint_axis="1" max_motor_force="100" cable_length="16" buoy_radius="1" buoy_factor="1" buoy_force="100" force_emitter_max_force="1000" force_emitter_max_vector="1" engine_max_force="1000" wheel_radius="0.25" button_type="1" light_intensity="1" light_range="1" light_ies_map="graphics/ies/ies_default.txtr" light_fov="1" door_lower_limit="-1" door_upper_limit="1" dynamic_max_rotation="3.141593" magnet_force="1">
+	<tooltip_properties description="Test block from the Stormworks Modding Tool"/>
 	<surfaces>
-		<surface orientation="3" shape="0" rotation="0">
+		<surface orientation="5" shape="1" rotation="0">
+			<position x="0" y="0" z="-0"/>
+		</surface>
+		<surface orientation="2" shape="1" rotation="0">
+			<position x="0" y="0" z="-0"/>
+		</surface>
+		<surface orientation="1" shape="1" rotation="0">
+			<position x="0" y="0" z="-0"/>
+		</surface>
+		<surface orientation="0" shape="1" rotation="0">
+			<position x="0" y="0" z="-0"/>
+		</surface>
+		<surface orientation="4" shape="1" rotation="0">
+			<position x="0" y="0" z="-0"/>
+		</surface>
+		<surface orientation="3" shape="1" rotation="0">
 			<position x="0" y="0" z="-0"/>
 		</surface>
 	</surfaces>
 	<buoyancy_surfaces>
-		<surface orientation="3" shape="0" rotation="0">
+		<surface orientation="5" shape="1" rotation="0">
+			<position x="0" y="0" z="-0"/>
+		</surface>
+		<surface orientation="2" shape="1" rotation="0">
+			<position x="0" y="0" z="-0"/>
+		</surface>
+		<surface orientation="1" shape="1" rotation="0">
+			<position x="0" y="0" z="-0"/>
+		</surface>
+		<surface orientation="0" shape="1" rotation="0">
+			<position x="0" y="0" z="-0"/>
+		</surface>
+		<surface orientation="4" shape="1" rotation="0">
+			<position x="0" y="0" z="-0"/>
+		</surface>
+		<surface orientation="3" shape="1" rotation="0">
 			<position x="0" y="0" z="-0"/>
 		</surface>
 	</buoyancy_surfaces>
+	<couplings/>
 	<voxels>
-		<voxel flags="1" physics_shape="38">
-			<position x="79" y="0" z="-5"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="0">
-			<position x="79" y="0" z="-4"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="38">
-			<position x="78" y="0" z="-4"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="0">
-			<position x="79" y="0" z="-3"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="0">
-			<position x="79" y="0" z="-2"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="0">
-			<position x="78" y="0" z="-3"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="0">
-			<position x="78" y="0" z="-2"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="38">
-			<position x="77" y="0" z="-3"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="0">
-			<position x="77" y="0" z="-2"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="38">
-			<position x="76" y="0" z="-2"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
 		<voxel flags="1" physics_shape="41">
-			<position x="82" y="0" z="-0"/>
+			<position x="76" y="0" z="-5"/>
 			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
 		</voxel>
 		<voxel flags="1" physics_shape="40">
-			<position x="80" y="0" z="-0"/>
+			<position x="76" y="0" z="-4"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="40">
+			<position x="77" y="0" z="-5"/>
 			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
 		</voxel>
 		<voxel flags="1" physics_shape="39">
-			<position x="78" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="38">
-			<position x="76" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="37">
-			<position x="74" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="36">
-			<position x="72" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="34">
-			<position x="70" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="0">
-			<position x="0" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="1">
-			<position x="2" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="2">
-			<position x="4" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="3">
-			<position x="6" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="4">
-			<position x="8" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="5">
-			<position x="10" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="6">
-			<position x="12" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="7">
-			<position x="14" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="8">
-			<position x="16" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="9">
-			<position x="18" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="10">
-			<position x="20" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="11">
-			<position x="22" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="12">
-			<position x="24" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="13">
-			<position x="26" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="14">
-			<position x="28" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="15">
-			<position x="30" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="16">
-			<position x="32" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="17">
-			<position x="34" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="18">
-			<position x="36" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="19">
-			<position x="38" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="20">
-			<position x="40" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="21">
-			<position x="42" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="22">
-			<position x="44" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="23">
-			<position x="46" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="24">
-			<position x="48" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="25">
-			<position x="50" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="26">
-			<position x="52" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="27">
-			<position x="54" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="28">
-			<position x="56" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="29">
-			<position x="58" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="30">
-			<position x="60" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="31">
-			<position x="62" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="32">
-			<position x="64" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="33">
-			<position x="66" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="34">
-			<position x="68" y="0" z="-0"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="4">
-			<position x="8" y="0" z="-2"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="5">
-			<position x="8" y="0" z="-3"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="6">
-			<position x="12" y="0" z="-2"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="7">
-			<position x="12" y="0" z="-3"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="8">
-			<position x="12" y="0" z="-4"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="9">
-			<position x="12" y="0" z="-5"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="10">
-			<position x="20" y="0" z="-2"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="11">
-			<position x="20" y="0" z="-3"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="12">
-			<position x="24" y="0" z="-2"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="13">
-			<position x="24" y="0" z="-3"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="14">
-			<position x="24" y="0" z="-4"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="15">
-			<position x="24" y="0" z="-5"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="17">
-			<position x="32" y="0" z="-2"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="16">
-			<position x="33" y="0" z="-2"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="17">
-			<position x="33" y="0" z="-3"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="20">
-			<position x="36" y="0" z="-2"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="18">
-			<position x="37" y="0" z="-2"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="19">
-			<position x="37" y="0" z="-3"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="21">
-			<position x="36" y="0" z="-3"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="20">
-			<position x="37" y="0" z="-4"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="25">
-			<position x="44" y="0" z="-2"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="24">
-			<position x="45" y="0" z="-2"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="23">
-			<position x="46" y="0" z="-2"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="22">
-			<position x="47" y="0" z="-2"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="23">
-			<position x="47" y="0" z="-3"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="25">
-			<position x="45" y="0" z="-3"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="24">
-			<position x="46" y="0" z="-3"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="25">
-			<position x="46" y="0" z="-4"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="24">
-			<position x="47" y="0" z="-4"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="25">
-			<position x="47" y="0" z="-5"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="26">
-			<position x="52" y="0" z="-2"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="21">
-			<position x="37" y="0" z="-5"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="27">
-			<position x="52" y="0" z="-3"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="28">
-			<position x="56" y="0" z="-2"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="29">
-			<position x="56" y="0" z="-3"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="30">
-			<position x="56" y="0" z="-4"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="31">
-			<position x="56" y="0" z="-5"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="32">
-			<position x="64" y="0" z="-2"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="33">
-			<position x="64" y="0" z="-3"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="32">
-			<position x="65" y="0" z="-3"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="0">
-			<position x="65" y="0" z="-2"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="34">
-			<position x="68" y="0" z="-2"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="0">
-			<position x="69" y="0" z="-2"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="0">
-			<position x="69" y="0" z="-3"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="34">
-			<position x="69" y="0" z="-4"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="35">
-			<position x="68" y="0" z="-3"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="36">
-			<position x="68" y="0" z="-4"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="35">
-			<position x="69" y="0" z="-5"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="37">
-			<position x="68" y="0" z="-5"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="39">
-			<position x="76" y="0" z="-3"/>
+			<position x="78" y="0" z="-5"/>
 			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
 		</voxel>
 		<voxel flags="1" physics_shape="39">
@@ -424,77 +64,448 @@
 			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
 		</voxel>
 		<voxel flags="1" physics_shape="39">
-			<position x="78" y="0" z="-5"/>
+			<position x="76" y="0" z="-3"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="37">
+			<position x="68" y="0" z="-5"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="35">
+			<position x="69" y="0" z="-5"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="36">
+			<position x="68" y="0" z="-4"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="35">
+			<position x="68" y="0" z="-3"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="34">
+			<position x="69" y="0" z="-4"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="0">
+			<position x="69" y="0" z="-3"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="0">
+			<position x="69" y="0" z="-2"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="34">
+			<position x="68" y="0" z="-2"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="0">
+			<position x="65" y="0" z="-2"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="32">
+			<position x="65" y="0" z="-3"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="33">
+			<position x="64" y="0" z="-3"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="32">
+			<position x="64" y="0" z="-2"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="31">
+			<position x="56" y="0" z="-5"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="30">
+			<position x="56" y="0" z="-4"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="29">
+			<position x="56" y="0" z="-3"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="28">
+			<position x="56" y="0" z="-2"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="27">
+			<position x="52" y="0" z="-3"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="21">
+			<position x="37" y="0" z="-5"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="26">
+			<position x="52" y="0" z="-2"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="25">
+			<position x="47" y="0" z="-5"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="24">
+			<position x="47" y="0" z="-4"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="25">
+			<position x="46" y="0" z="-4"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="24">
+			<position x="46" y="0" z="-3"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="25">
+			<position x="45" y="0" z="-3"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="23">
+			<position x="47" y="0" z="-3"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="22">
+			<position x="47" y="0" z="-2"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="23">
+			<position x="46" y="0" z="-2"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="24">
+			<position x="45" y="0" z="-2"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="25">
+			<position x="44" y="0" z="-2"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="20">
+			<position x="37" y="0" z="-4"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="21">
+			<position x="36" y="0" z="-3"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="19">
+			<position x="37" y="0" z="-3"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="18">
+			<position x="37" y="0" z="-2"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="20">
+			<position x="36" y="0" z="-2"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="17">
+			<position x="33" y="0" z="-3"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="16">
+			<position x="33" y="0" z="-2"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="17">
+			<position x="32" y="0" z="-2"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="15">
+			<position x="24" y="0" z="-5"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="14">
+			<position x="24" y="0" z="-4"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="13">
+			<position x="24" y="0" z="-3"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="12">
+			<position x="24" y="0" z="-2"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="11">
+			<position x="20" y="0" z="-3"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="10">
+			<position x="20" y="0" z="-2"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="9">
+			<position x="12" y="0" z="-5"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="8">
+			<position x="12" y="0" z="-4"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="7">
+			<position x="12" y="0" z="-3"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="6">
+			<position x="12" y="0" z="-2"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="5">
+			<position x="8" y="0" z="-3"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="4">
+			<position x="8" y="0" z="-2"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="34">
+			<position x="68" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="33">
+			<position x="66" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="32">
+			<position x="64" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="31">
+			<position x="62" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="30">
+			<position x="60" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="29">
+			<position x="58" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="28">
+			<position x="56" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="27">
+			<position x="54" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="26">
+			<position x="52" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="25">
+			<position x="50" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="24">
+			<position x="48" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="23">
+			<position x="46" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="22">
+			<position x="44" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="21">
+			<position x="42" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="20">
+			<position x="40" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="19">
+			<position x="38" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="18">
+			<position x="36" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="17">
+			<position x="34" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="16">
+			<position x="32" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="15">
+			<position x="30" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="14">
+			<position x="28" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="13">
+			<position x="26" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="12">
+			<position x="24" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="11">
+			<position x="22" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="10">
+			<position x="20" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="9">
+			<position x="18" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="8">
+			<position x="16" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="7">
+			<position x="14" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="6">
+			<position x="12" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="5">
+			<position x="10" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="4">
+			<position x="8" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="3">
+			<position x="6" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="2">
+			<position x="4" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="1">
+			<position x="2" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="0">
+			<position x="0" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="34">
+			<position x="70" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="36">
+			<position x="72" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="37">
+			<position x="74" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="38">
+			<position x="76" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="39">
+			<position x="78" y="0" z="-0"/>
 			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
 		</voxel>
 		<voxel flags="1" physics_shape="40">
-			<position x="77" y="0" z="-5"/>
-			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
-		</voxel>
-		<voxel flags="1" physics_shape="40">
-			<position x="76" y="0" z="-4"/>
+			<position x="80" y="0" z="-0"/>
 			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
 		</voxel>
 		<voxel flags="1" physics_shape="41">
-			<position x="76" y="0" z="-5"/>
+			<position x="82" y="0" z="-0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="38">
+			<position x="76" y="0" z="-2"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="0">
+			<position x="77" y="0" z="-2"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="38">
+			<position x="77" y="0" z="-3"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="0">
+			<position x="78" y="0" z="-2"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="0">
+			<position x="78" y="0" z="-3"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="0">
+			<position x="79" y="0" z="-2"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="0">
+			<position x="79" y="0" z="-3"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="38">
+			<position x="78" y="0" z="-4"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="0">
+			<position x="79" y="0" z="-4"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="1" physics_shape="38">
+			<position x="79" y="0" z="-5"/>
 			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
 		</voxel>
 	</voxels>
-	<voxel_min x="-1" y="-5" z="-1"/>
-	<voxel_max x="1" y="16" z="1"/>
-	<voxel_physics_min x="-1" y="-5" z="-1"/>
-	<voxel_physics_max x="1" y="16" z="1"/>
-	<bb_physics_min x="0" y="0" z="0"/>
-	<bb_physics_max x="0" y="0" z="0"/>
-	<compartment_sample_pos x="0" y="0" z="0"/>
-	<constraint_pos_parent x="0" y="0" z="0"/>
-	<constraint_pos_child x="0" y="0" z="0"/>
-	<voxel_location_child x="0" y="0" z="0"/>
-	<seat_offset x="0" y="0" z="0"/>
-	<seat_front x="0" y="0" z="1"/>
-	<seat_up x="0" y="1" z="0"/>
-	<seat_camera x="0" y="0" z="0"/>
-	<seat_render x="0" y="0" z="0"/>
-	<force_dir x="0" y="0" z="0"/>
-	<light_position x="0" y="0" z="0"/>
+	<voxel_min/>
+	<voxel_max/>
+	<voxel_physics_min/>
+	<voxel_physics_max/>
+	<bb_physics_min/>
+	<bb_physics_max/>
+	<compartment_sample_pos/>
+	<constraint_pos_parent/>
+	<constraint_pos_child/>
+	<voxel_location_child/>
+	<seat_offset/>
+	<seat_front/>
+	<seat_up/>
+	<seat_camera/>
+	<seat_render/>
+	<force_dir/>
+	<light_position/>
 	<light_color x="1" y="1" z="1"/>
-	<light_forward x="0" y="1" z="0"/>
+	<light_forward/>
 	<door_size x="1" y="1" z="1"/>
-	<door_normal x="0" y="0" z="1"/>
-	<door_side x="1" y="0" z="0"/>
-	<door_up x="0" y="1" z="0"/>
-	<door_base_pos x="0" y="0" z="0"/>
-	<dynamic_body_position x="0" y="0" z="0"/>
-	<dynamic_rotation_axes x="0" y="1" z="0"/>
-	<dynamic_side_axis x="1" y="0" z="0"/>
-	<magnet_offset x="0" y="0" z="0"/>
-	<connector_axis x="0" y="1" z="0"/>
-	<connector_up x="1" y="0" z="0"/>
-	<tooltip_properties description="Artillery cannons fire high caliber explosive and armor-piercing shells over great distances." short_description="An artillery cannon."/>
+	<door_normal/>
+	<door_side/>
+	<door_up/>
+	<door_base_pos/>
+	<dynamic_body_position/>
+	<dynamic_rotation_axes y="1"/>
+	<dynamic_side_axis x="1"/>
+	<magnet_offset/>
+	<connector_axis/>
+	<connector_up/>
 	<jet_engine_connections_prev/>
 	<jet_engine_connections_next/>
-	<particle_direction x="0" y="1" z="0"/>
-	<particle_offset x="0" y="0" z="0"/>
-	<particle_bounds x="0.2" y="0.2" z="0.2"/>
-	<weapon_breech_position x="0" y="-4" z="0"/>
-	<weapon_breech_normal x="0" y="0" z="-1"/>
-	<weapon_cart_position x="0.65" y="0" z="-0.375"/>
-	<weapon_cart_velocity x="250" y="0" z="0"/>
-	<rope_hook_offset x="0" y="0" z="0"/>
+	<particle_direction/>
+	<particle_offset/>
+	<particle_bounds/>
+	<rope_hook_offset/>
 </definition>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
