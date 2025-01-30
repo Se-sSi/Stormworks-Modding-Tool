@@ -12,15 +12,15 @@ When you open the program, start by loading in your pre existing **custom XML mo
 
 ## Building modes 🔨
 ### Voxel 🔲
-**Voxels** are the **physical collision boxes** in-game, and the foundation for **surface** placements. They have different **positions**, **shapes**, **rotations** and **orientations**.
+**Voxels** are the **physical collision boxes** in-game, and the foundation for **surface** placements.
 - There are **42 voxel shapes** (0-41), which define diffent collision boxes and **surface** placements.
 
 ### Surface 🔷
 **Surfaces** are attachable (placeable) faces that you place on **voxel** faces.
+- There are **67 surface shapes** (0-66), which define diffent surface shapes to fit with the voxel shapes.
 - If the **attachment face** property is activate, the surface will be **visible** in-game (except shape 0, which is invisible).
 - If the **fluid seal** property is active, but **attachment face** is not, the surface will be **invisible** but still act as a fluid seal.
-- Surfaces can have different **positions**, **shapes**, **rotations** and **orientations**, but must be placed on a voxel face (though you can remove the voxel to create floating surfaces).
-- There are **67 surface shapes** (0-66), which define diffent surface shapes to fit with the voxel shapes.
+- Surfaces must be placed on a voxel face (though you can remove the voxel to create floating surfaces).
 
 ## Edit mode ✏️
 In **edit mode**, you can edit the **voxels** or **surfaces** (depending on the selected **bulding mode**) by clicking an object and changing it's properties on the right panel.
