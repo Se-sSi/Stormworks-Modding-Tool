@@ -47,12 +47,12 @@ The **position** follows the Stormworks' **right-handed coordinate system:**
 
 ## Orientation ↘️
 The **orientation** unlike the **rotation** makes the object's forward direction one of the **6** (0-5) different directions:
-**0 = right**
-**1 = left**
-**2 = up**
-**3 = down**
-**4 = backward**
-**5 = forward**
+- **0 = right**
+- **1 = left**
+- **2 = up**
+- **3 = down**
+- **4 = backward**
+- **5 = forward**
 
 ## Delete mode 🗑
 - **Delete mode** removes placed objects.
@@ -129,7 +129,7 @@ I am NOT affiliated with the Stormworks developers.
 - If your issue is not covered. Feel free to ask me on [Discord]((https://discord.gg/YWDb5x6xCJ)) (linked below).
 
 ## Socials 🌐
-[**GitHub** (click here)](https://github.com/Se-sSi/Stormworks-Modding-Tool)
-[**Discord community server** (click here)](https://discord.gg/YWDb5x6xCJ)
-[**Steam workshop** (click here)](https://steamcommunity.com/profiles/76561198040040549/myworkshopfiles)
-[**Youtube** (click here)](https://www.youtube.com/@se-ssi)
+- [**GitHub** (click here)](https://github.com/Se-sSi/Stormworks-Modding-Tool)
+- [**Discord community server** (click here)](https://discord.gg/YWDb5x6xCJ)
+- [**Steam workshop** (click here)](https://steamcommunity.com/profiles/76561198040040549/myworkshopfiles)
+- [**Youtube** (click here)](https://www.youtube.com/@se-ssi)
