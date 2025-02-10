@@ -11,6 +11,8 @@ To download simply download the "**Stormworks Modding Tool.exe**" file (for wind
 When you open the program, start by loading in your pre existing **custom XML mod block file** that you want to edit. Click "**Load XML file**" and select the file you want to edit. See the chapters for further info of how to use the tool.
 
 ## Building modes 🔨
+- **Shortcut:** **Key 1** to switch between **voxel** and **surface** mode
+
 ### Voxel 🔲
 **Voxels** are the **physical collision boxes** in-game, and the foundation for **surface** placements.
 - There are **42 voxel shapes** (0-41), which define diffent collision boxes and **surface** placements.
@@ -24,6 +26,7 @@ When you open the program, start by loading in your pre existing **custom XML mo
 
 ## Edit mode ✏️
 In **edit mode**, you can edit the **voxels** or **surfaces** (depending on the selected **bulding mode**) by clicking an object and changing it's properties on the right panel.
+- **Shortcut:** **Key 1** to toggle between **build** and **edit** mode
 
 ### Attachment face ⬇️
 An **attachment surface** is a property that makes a surface, a face that you can place blocks on in-game.
@@ -34,10 +37,13 @@ A **fluid seal** is a property that prevents **water**, **gases** and **space** 
 ## Shape 🔷
 - **Voxel shapes** (0-41) define the voxel and the physical collision shapes.
 - **Surface shapes** (0-66) define the surface and visible in-game shapes.
+- **Shortcut:** **Left/Right arrows** to decrease or increase the **shape** type
 
 ## Rotation 🔁
 The **rotation** defines the how an object **spins around its forward direction**.
 - Note that some **orientations** and **rotations** can result in the same vissible orientation.
+- **Shortcut:** **Up/Down arrows** to increase or decrease the **rotation**
+
 
 ## Position ↔️
 The **position** follows the Stormworks' **right-handed coordinate system:**
@@ -86,6 +92,7 @@ You can generate **voxels** from a mesh
 
 ## Saving 💾
 - Saves and **overrides** the current XML file.
+- **Shortcut:** **Ctrl + S** to **save** the current XML file.
 - ⚠️ **This cannot be undone, make backups before starting!**
 
 ### Save as
