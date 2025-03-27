@@ -45,6 +45,9 @@ A **fluid seal** is a property in the shapes menu that prevents **water**, **gas
 - Rotate objects with the **J**, **K** and **L** keys rotating the object around the X, Y, Z axies respectivley (like in Stormworks)
 - Press the key **R** to rotate around the normal face axis. (usefull for **surfaces**)
 
+## Picker 🎯
+- Copy the mouse hovered shape with **middle mouse button**
+
 ## Erase 🗑
 - Removes placed objects.
 - ⚠️ **Undo does not work for deleted objects** in this version.
@@ -65,15 +68,15 @@ A **fluid seal** is a property in the shapes menu that prevents **water**, **gas
 - 1 block = 0.25x0.25x0.25m.
 
 ### Generating a voxel mesh from OBJ file 📐
-- **Generate voxel mesh from obj file ** Generates **voxels** from an obj file
+- **Generate voxel mesh from obj file** Generates **voxels** from an obj file
 - The **vertices** in the OBJ file are **treated as the corners of the voxels** (0.25x0.25x0.25 m voxels).
 - To use efficently:
 - **Build** the mesh in Stormworks.
 - **Export** while in the **Stormworks** editor by pressing "f11".
-- **Import** the DEA file into **Blender**
-- **Remove unecessary verticies** (recomended).
+- **Import** the PLY file into **Blender**
+- **Remove unecessary (non voxel) verticies** (recomended).
 - **Export** as **OBJ file**.
-- **Load the file inside** this tool.
+- **Load the file inside** this tool with the "GEN" button.
 
 ## Saving 💾
 - Saves and **overrides** the current XML file.
@@ -95,7 +98,7 @@ A **fluid seal** is a property in the shapes menu that prevents **water**, **gas
 - Not implemented. (yet)
 
 ## Other features 🔧
-### File converter 🔄
+### File converter 🔄 (temporarily removed)
 - **Convert files** converts between DAE and MESH files (also works with the texture compiler for texture files).
 - Click the menu at the upper left of the window and select "**Convert files**" to go **to the file converter**
 - Select your **Stormworks mesh compiler** (likely at "C:/Program Files (x86)/Steam/steamapps/common/Stormworks/sdk/mesh_compiler.com").
