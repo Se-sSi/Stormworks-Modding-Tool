@@ -34,7 +34,7 @@ When you open the program, start by loading in your pre existing **custom XML mo
 An **attachment surface** is a property in the shapes menu that makes a surface, a face that you can place blocks on in-game.
 
 ### Fluid seal 💦
-A **fluid seal** is a property in the shapes menu that prevents **water**, **gases** and **space** from passing through a surface.
+A **fluid seal** is a property in the shapes menu that prevents **water**, **gases** and **space** from passing through.
 
 ## Shape 🔷
 - Select the shape in the **shapes menu**.
