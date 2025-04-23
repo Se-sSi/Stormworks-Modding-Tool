@@ -74,7 +74,7 @@ A **fluid seal** is a property in the shapes menu that prevents **water**, **gas
 - **Build** the mesh in Stormworks.
 - **Export** while in the **Stormworks** editor by pressing "f11".
 - **Import** the PLY file into **Blender**
-- **Remove unecessary (non voxel) verticies** (recomended).
+- **Remove unnecessary (non voxel) vertices** (recomended).
 - **Export** as **OBJ file**.
 - **Load the file inside** this tool with the "GEN" button.
 
